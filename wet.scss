@@ -1,0 +1,787 @@
+
+
+div.tnk-container{
+    background-image: url("http://static1.1.sqspcdn.com/static/f/709071/28243747/1579169236813/weatheringwithyou-cloudynight.jpg?token=b5H%2BUx4YhDvZULynYtp0rQymOHM%3D");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:bottom;
+    height:100vh;
+    width:100vw;
+    overflow:hidden;
+    display:grid;
+    grid-template-columns:repeat(10,1fr);
+  .rain-group{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    height:100vh;
+    overflow:hidden;
+    .raindrop{
+      width:3px;
+      margin: 0 5px;
+      background-color:white;
+      display:block;
+      &.rd-1{
+        opacity:50%;
+      }
+      &.rd-2{
+        opacity:80%;
+      }
+      &.rd-3{
+        opacity:40%;
+      }
+      &.rd-4{
+        opacity:84%;
+      }
+      &.rd-5{
+        opacity:20%;
+      }
+      &.rd-6{
+        opacity:68%;
+      }
+      &.rd-7{
+        opacity:84%;
+      }
+      &.rd-8{
+        opacity:43%;
+      }
+      &.rd-2{
+        opacity:21%;
+      }
+      &.rd-2{
+        opacity:56%;
+      }
+    }
+    $rain-speed-mult:0.15;
+    //raingroup1
+    &.rg-1{
+      .rd-1{
+        height: random(20) + rem;
+        width: random(5) + px;
+        $randNum: random(10);
+        animation: rainfall infinite #{$randNum * $rain-speed-mult}s linear;
+      }
+      .rd-2{
+        height: random(20) + rem;
+        width: random(5) + px;
+                $randNum: random(10);
+        animation: rainfall infinite #{$randNum * $rain-speed-mult}s linear;
+      }
+      .rd-3{
+        height: random(20) + rem;
+        width: random(5) + px;
+        margin-top: random(50) + rem;
+        $randNum: random(10);
+        animation: rainfall infinite #{$randNum * $rain-speed-mult}s linear;
+      }
+      .rd-4{
+        height: random(20) + rem;
+        width: random(5) + px;
+        margin-top: random(50) + rem;
+        $randNum: random(10);
+        animation: rainfall infinite #{$randNum * $rain-speed-mult}s linear;
+      }
+      .rd-5{
+        height: random(20) + rem;
+        width: random(5) + px;
+        margin-top: random(50) + rem;
+        $randNum: random(10);
+        animation: rainfall infinite #{$randNum * $rain-speed-mult}s linear;
+      }
+      .rd-6{
+        height: random(20) + rem;
+        width: random(5) + px;
+        margin-top: random(50) + rem;
+        $randNum: random(10);
+        animation: rainfall infinite #{$randNum * $rain-speed-mult}s linear;
+      }
+      .rd-7{
+        height: random(20) + rem;
+        width: random(5) + px;
+        margin-top: random(50) + rem;
+        $randNum: random(10);
+        animation: rainfall infinite #{$randNum * $rain-speed-mult}s linear;
+      }
+      .rd-8{
+        height: random(20) + rem;
+        width: random(5) + px;
+        margin-top: random(50) + rem;
+        $randNum: random(10);
+        animation: rainfall infinite #{$randNum * $rain-speed-mult}s linear;
+      }
+      .rd-9{
+        height: random(20) + rem;
+        width: random(5) + px;
+        margin-top: random(50) + rem;
+        $randNum: random(10);
+        animation: rainfall infinite #{$randNum * $rain-speed-mult}s linear;
+      }
+      .rd-10{
+        height: random(20) + rem;
+        width: random(5) + px;
+        margin-top: random(50) + rem;
+        $randNum: random(10);
+        animation: rainfall infinite #{$randNum * $rain-speed-mult}s linear;
+      }
+    } // end rain group
+        //raingroup2
+    &.rg-2{
+      .rd-1{
+        height: random(20) + rem;
+        width: random(5) + px;
+        $randNum: random(10);
+        animation: rainfall infinite #{$randNum * $rain-speed-mult}s linear;
+      }
+      .rd-2{
+        height: random(20) + rem;
+        width: random(5) + px;
+                $randNum: random(10);
+        animation: rainfall infinite #{$randNum * $rain-speed-mult}s linear;
+      }
+      .rd-3{
+        height: random(20) + rem;
+        width: random(5) + px;
+        margin-top: random(50) + rem;
+        $randNum: random(10);
+        animation: rainfall infinite #{$randNum * $rain-speed-mult}s linear;
+      }
+      .rd-4{
+        height: random(20) + rem;
+        width: random(5) + px;
+        margin-top: random(50) + rem;
+        $randNum: random(10);
+        animation: rainfall infinite #{$randNum * $rain-speed-mult}s linear;
+      }
+      .rd-5{
+        height: random(20) + rem;
+        width: random(5) + px;
+        margin-top: random(50) + rem;
+        $randNum: random(10);
+        animation: rainfall infinite #{$randNum * $rain-speed-mult}s linear;
+      }
+      .rd-6{
+        height: random(20) + rem;
+        width: random(5) + px;
+        margin-top: random(50) + rem;
+        $randNum: random(10);
+        animation: rainfall infinite #{$randNum * $rain-speed-mult}s linear;
+      }
+      .rd-7{
+        height: random(20) + rem;
+        width: random(5) + px;
+        margin-top: random(50) + rem;
+        $randNum: random(10);
+        animation: rainfall infinite #{$randNum * $rain-speed-mult}s linear;
+      }
+      .rd-8{
+        height: random(20) + rem;
+        width: random(5) + px;
+        margin-top: random(50) + rem;
+        $randNum: random(10);
+        animation: rainfall infinite #{$randNum * $rain-speed-mult}s linear;
+      }
+      .rd-9{
+        height: random(20) + rem;
+        width: random(5) + px;
+        margin-top: random(50) + rem;
+        $randNum: random(10);
+        animation: rainfall infinite #{$randNum * $rain-speed-mult}s linear;
+      }
+      .rd-10{
+        height: random(20) + rem;
+        width: random(5) + px;
+        margin-top: random(50) + rem;
+        $randNum: random(10);
+        animation: rainfall infinite #{$randNum * $rain-speed-mult}s linear;
+      }
+    } // end rain group
+    
+            //raingroup3
+    &.rg-3{
+      .rd-1{
+        height: random(20) + rem;
+        width: random(5) + px;
+        $randNum: random(10);
+        animation: rainfall infinite #{$randNum * $rain-speed-mult}s linear;
+      }
+      .rd-2{
+        height: random(20) + rem;
+        width: random(5) + px;
+                $randNum: random(10);
+        animation: rainfall infinite #{$randNum * $rain-speed-mult}s linear;
+      }
+      .rd-3{
+        height: random(20) + rem;
+        width: random(5) + px;
+        margin-top: random(50) + rem;
+        $randNum: random(10);
+        animation: rainfall infinite #{$randNum * $rain-speed-mult}s linear;
+      }
+      .rd-4{
+        height: random(20) + rem;
+        width: random(5) + px;
+        margin-top: random(50) + rem;
+        $randNum: random(10);
+        animation: rainfall infinite #{$randNum * $rain-speed-mult}s linear;
+      }
+      .rd-5{
+        height: random(20) + rem;
+        width: random(5) + px;
+        margin-top: random(50) + rem;
+        $randNum: random(10);
+        animation: rainfall infinite #{$randNum * $rain-speed-mult}s linear;
+      }
+      .rd-6{
+        height: random(20) + rem;
+        width: random(5) + px;
+        margin-top: random(50) + rem;
+        $randNum: random(10);
+        animation: rainfall infinite #{$randNum * $rain-speed-mult}s linear;
+      }
+      .rd-7{
+        height: random(20) + rem;
+        width: random(5) + px;
+        margin-top: random(50) + rem;
+        $randNum: random(10);
+        animation: rainfall infinite #{$randNum * $rain-speed-mult}s linear;
+      }
+      .rd-8{
+        height: random(20) + rem;
+        width: random(5) + px;
+        margin-top: random(50) + rem;
+        $randNum: random(10);
+        animation: rainfall infinite #{$randNum * $rain-speed-mult}s linear;
+      }
+      .rd-9{
+        height: random(20) + rem;
+        width: random(5) + px;
+        margin-top: random(50) + rem;
+        $randNum: random(10);
+        animation: rainfall infinite #{$randNum * $rain-speed-mult}s linear;
+      }
+      .rd-10{
+        height: random(20) + rem;
+        width: random(5) + px;
+        margin-top: random(50) + rem;
+        $randNum: random(10);
+        animation: rainfall infinite #{$randNum * $rain-speed-mult}s linear;
+      }
+    } // end rain group
+    
+            //raingroup4
+    &.rg-4{
+      .rd-1{
+        height: random(20) + rem;
+        width: random(5) + px;
+        $randNum: random(10);
+        animation: rainfall infinite #{$randNum * $rain-speed-mult}s linear;
+      }
+      .rd-2{
+        height: random(20) + rem;
+        width: random(5) + px;
+                $randNum: random(10);
+        animation: rainfall infinite #{$randNum * $rain-speed-mult}s linear;
+      }
+      .rd-3{
+        height: random(20) + rem;
+        width: random(5) + px;
+        margin-top: random(50) + rem;
+        $randNum: random(10);
+        animation: rainfall infinite #{$randNum * $rain-speed-mult}s linear;
+      }
+      .rd-4{
+        height: random(20) + rem;
+        width: random(5) + px;
+        margin-top: random(50) + rem;
+        $randNum: random(10);
+        animation: rainfall infinite #{$randNum * $rain-speed-mult}s linear;
+      }
+      .rd-5{
+        height: random(20) + rem;
+        width: random(5) + px;
+        margin-top: random(50) + rem;
+        $randNum: random(10);
+        animation: rainfall infinite #{$randNum * $rain-speed-mult}s linear;
+      }
+      .rd-6{
+        height: random(20) + rem;
+        width: random(5) + px;
+        margin-top: random(50) + rem;
+        $randNum: random(10);
+        animation: rainfall infinite #{$randNum * $rain-speed-mult}s linear;
+      }
+      .rd-7{
+        height: random(20) + rem;
+        width: random(5) + px;
+        margin-top: random(50) + rem;
+        $randNum: random(10);
+        animation: rainfall infinite #{$randNum * $rain-speed-mult}s linear;
+      }
+      .rd-8{
+        height: random(20) + rem;
+        width: random(5) + px;
+        margin-top: random(50) + rem;
+        $randNum: random(10);
+        animation: rainfall infinite #{$randNum * $rain-speed-mult}s linear;
+      }
+      .rd-9{
+        height: random(20) + rem;
+        width: random(5) + px;
+        margin-top: random(50) + rem;
+        $randNum: random(10);
+        animation: rainfall infinite #{$randNum * $rain-speed-mult}s linear;
+      }
+      .rd-10{
+        height: random(20) + rem;
+        width: random(5) + px;
+        margin-top: random(50) + rem;
+        $randNum: random(10);
+        animation: rainfall infinite #{$randNum * $rain-speed-mult}s linear;
+      }
+    } // end rain group
+    
+            //raingroup5
+    &.rg-5{
+      .rd-1{
+        height: random(20) + rem;
+        width: random(5) + px;
+        $randNum: random(10);
+        animation: rainfall infinite #{$randNum * $rain-speed-mult}s linear;
+      }
+      .rd-2{
+        height: random(20) + rem;
+        width: random(5) + px;
+                $randNum: random(10);
+        animation: rainfall infinite #{$randNum * $rain-speed-mult}s linear;
+      }
+      .rd-3{
+        height: random(20) + rem;
+        width: random(5) + px;
+        margin-top: random(50) + rem;
+        $randNum: random(10);
+        animation: rainfall infinite #{$randNum * $rain-speed-mult}s linear;
+      }
+      .rd-4{
+        height: random(20) + rem;
+        width: random(5) + px;
+        margin-top: random(50) + rem;
+        $randNum: random(10);
+        animation: rainfall infinite #{$randNum * $rain-speed-mult}s linear;
+      }
+      .rd-5{
+        height: random(20) + rem;
+        width: random(5) + px;
+        margin-top: random(50) + rem;
+        $randNum: random(10);
+        animation: rainfall infinite #{$randNum * $rain-speed-mult}s linear;
+      }
+      .rd-6{
+        height: random(20) + rem;
+        width: random(5) + px;
+        margin-top: random(50) + rem;
+        $randNum: random(10);
+        animation: rainfall infinite #{$randNum * $rain-speed-mult}s linear;
+      }
+      .rd-7{
+        height: random(20) + rem;
+        width: random(5) + px;
+        margin-top: random(50) + rem;
+        $randNum: random(10);
+        animation: rainfall infinite #{$randNum * $rain-speed-mult}s linear;
+      }
+      .rd-8{
+        height: random(20) + rem;
+        width: random(5) + px;
+        margin-top: random(50) + rem;
+        $randNum: random(10);
+        animation: rainfall infinite #{$randNum * $rain-speed-mult}s linear;
+      }
+      .rd-9{
+        height: random(20) + rem;
+        width: random(5) + px;
+        margin-top: random(50) + rem;
+        $randNum: random(10);
+        animation: rainfall infinite #{$randNum * $rain-speed-mult}s linear;
+      }
+      .rd-10{
+        height: random(20) + rem;
+        width: random(5) + px;
+        margin-top: random(50) + rem;
+        $randNum: random(10);
+        animation: rainfall infinite #{$randNum * $rain-speed-mult}s linear;
+      }
+    } // end rain group
+    
+            //raingroup6
+    &.rg-6{
+      .rd-1{
+        height: random(20) + rem;
+        width: random(5) + px;
+        $randNum: random(10);
+        animation: rainfall infinite #{$randNum * $rain-speed-mult}s linear;
+      }
+      .rd-2{
+        height: random(20) + rem;
+        width: random(5) + px;
+                $randNum: random(10);
+        animation: rainfall infinite #{$randNum * $rain-speed-mult}s linear;
+      }
+      .rd-3{
+        height: random(20) + rem;
+        width: random(5) + px;
+        margin-top: random(50) + rem;
+        $randNum: random(10);
+        animation: rainfall infinite #{$randNum * $rain-speed-mult}s linear;
+      }
+      .rd-4{
+        height: random(20) + rem;
+        width: random(5) + px;
+        margin-top: random(50) + rem;
+        $randNum: random(10);
+        animation: rainfall infinite #{$randNum * $rain-speed-mult}s linear;
+      }
+      .rd-5{
+        height: random(20) + rem;
+        width: random(5) + px;
+        margin-top: random(50) + rem;
+        $randNum: random(10);
+        animation: rainfall infinite #{$randNum * $rain-speed-mult}s linear;
+      }
+      .rd-6{
+        height: random(20) + rem;
+        width: random(5) + px;
+        margin-top: random(50) + rem;
+        $randNum: random(10);
+        animation: rainfall infinite #{$randNum * $rain-speed-mult}s linear;
+      }
+      .rd-7{
+        height: random(20) + rem;
+        width: random(5) + px;
+        margin-top: random(50) + rem;
+        $randNum: random(10);
+        animation: rainfall infinite #{$randNum * $rain-speed-mult}s linear;
+      }
+      .rd-8{
+        height: random(20) + rem;
+        width: random(5) + px;
+        margin-top: random(50) + rem;
+        $randNum: random(10);
+        animation: rainfall infinite #{$randNum * $rain-speed-mult}s linear;
+      }
+      .rd-9{
+        height: random(20) + rem;
+        width: random(5) + px;
+        margin-top: random(50) + rem;
+        $randNum: random(10);
+        animation: rainfall infinite #{$randNum * $rain-speed-mult}s linear;
+      }
+      .rd-10{
+        height: random(20) + rem;
+        width: random(5) + px;
+        margin-top: random(50) + rem;
+        $randNum: random(10);
+        animation: rainfall infinite #{$randNum * $rain-speed-mult}s linear;
+      }
+    } // end rain group
+    
+            //raingroup7
+    &.rg-7{
+      .rd-1{
+        height: random(20) + rem;
+        width: random(5) + px;
+        $randNum: random(10);
+        animation: rainfall infinite #{$randNum * $rain-speed-mult}s linear;
+      }
+      .rd-2{
+        height: random(20) + rem;
+        width: random(5) + px;
+                $randNum: random(10);
+        animation: rainfall infinite #{$randNum * $rain-speed-mult}s linear;
+      }
+      .rd-3{
+        height: random(20) + rem;
+        width: random(5) + px;
+        margin-top: random(50) + rem;
+        $randNum: random(10);
+        animation: rainfall infinite #{$randNum * $rain-speed-mult}s linear;
+      }
+      .rd-4{
+        height: random(20) + rem;
+        width: random(5) + px;
+        margin-top: random(50) + rem;
+        $randNum: random(10);
+        animation: rainfall infinite #{$randNum * $rain-speed-mult}s linear;
+      }
+      .rd-5{
+        height: random(20) + rem;
+        width: random(5) + px;
+        margin-top: random(50) + rem;
+        $randNum: random(10);
+        animation: rainfall infinite #{$randNum * $rain-speed-mult}s linear;
+      }
+      .rd-6{
+        height: random(20) + rem;
+        width: random(5) + px;
+        margin-top: random(50) + rem;
+        $randNum: random(10);
+        animation: rainfall infinite #{$randNum * $rain-speed-mult}s linear;
+      }
+      .rd-7{
+        height: random(20) + rem;
+        width: random(5) + px;
+        margin-top: random(50) + rem;
+        $randNum: random(10);
+        animation: rainfall infinite #{$randNum * $rain-speed-mult}s linear;
+      }
+      .rd-8{
+        height: random(20) + rem;
+        width: random(5) + px;
+        margin-top: random(50) + rem;
+        $randNum: random(10);
+        animation: rainfall infinite #{$randNum * $rain-speed-mult}s linear;
+      }
+      .rd-9{
+        height: random(20) + rem;
+        width: random(5) + px;
+        margin-top: random(50) + rem;
+        $randNum: random(10);
+        animation: rainfall infinite #{$randNum * $rain-speed-mult}s linear;
+      }
+      .rd-10{
+        height: random(20) + rem;
+        width: random(5) + px;
+        margin-top: random(50) + rem;
+        $randNum: random(10);
+        animation: rainfall infinite #{$randNum * $rain-speed-mult}s linear;
+      }
+    } // end rain group
+    
+            //raingroup8
+    &.rg-8{
+      .rd-1{
+        height: random(20) + rem;
+        width: random(5) + px;
+        $randNum: random(10);
+        animation: rainfall infinite #{$randNum * $rain-speed-mult}s linear;
+      }
+      .rd-2{
+        height: random(20) + rem;
+        width: random(5) + px;
+                $randNum: random(10);
+        animation: rainfall infinite #{$randNum * $rain-speed-mult}s linear;
+      }
+      .rd-3{
+        height: random(20) + rem;
+        width: random(5) + px;
+        margin-top: random(50) + rem;
+        $randNum: random(10);
+        animation: rainfall infinite #{$randNum * $rain-speed-mult}s linear;
+      }
+      .rd-4{
+        height: random(20) + rem;
+        width: random(5) + px;
+        margin-top: random(50) + rem;
+        $randNum: random(10);
+        animation: rainfall infinite #{$randNum * $rain-speed-mult}s linear;
+      }
+      .rd-5{
+        height: random(20) + rem;
+        width: random(5) + px;
+        margin-top: random(50) + rem;
+        $randNum: random(10);
+        animation: rainfall infinite #{$randNum * $rain-speed-mult}s linear;
+      }
+      .rd-6{
+        height: random(20) + rem;
+        width: random(5) + px;
+        margin-top: random(50) + rem;
+        $randNum: random(10);
+        animation: rainfall infinite #{$randNum * $rain-speed-mult}s linear;
+      }
+      .rd-7{
+        height: random(20) + rem;
+        width: random(5) + px;
+        margin-top: random(50) + rem;
+        $randNum: random(10);
+        animation: rainfall infinite #{$randNum * $rain-speed-mult}s linear;
+      }
+      .rd-8{
+        height: random(20) + rem;
+        width: random(5) + px;
+        margin-top: random(50) + rem;
+        $randNum: random(10);
+        animation: rainfall infinite #{$randNum * $rain-speed-mult}s linear;
+      }
+      .rd-9{
+        height: random(20) + rem;
+        width: random(5) + px;
+        margin-top: random(50) + rem;
+        $randNum: random(10);
+        animation: rainfall infinite #{$randNum * $rain-speed-mult}s linear;
+      }
+      .rd-10{
+        height: random(20) + rem;
+        width: random(5) + px;
+        margin-top: random(50) + rem;
+        $randNum: random(10);
+        animation: rainfall infinite #{$randNum * $rain-speed-mult}s linear;
+      }
+    } // end rain group
+    
+            //raingroup9
+    &.rg-9{
+      .rd-1{
+        height: random(20) + rem;
+        width: random(5) + px;
+        $randNum: random(10);
+        animation: rainfall infinite #{$randNum * $rain-speed-mult}s linear;
+      }
+      .rd-2{
+        height: random(20) + rem;
+        width: random(5) + px;
+                $randNum: random(10);
+        animation: rainfall infinite #{$randNum * $rain-speed-mult}s linear;
+      }
+      .rd-3{
+        height: random(20) + rem;
+        width: random(5) + px;
+        margin-top: random(50) + rem;
+        $randNum: random(10);
+        animation: rainfall infinite #{$randNum * $rain-speed-mult}s linear;
+      }
+      .rd-4{
+        height: random(20) + rem;
+        width: random(5) + px;
+        margin-top: random(50) + rem;
+        $randNum: random(10);
+        animation: rainfall infinite #{$randNum * $rain-speed-mult}s linear;
+      }
+      .rd-5{
+        height: random(20) + rem;
+        width: random(5) + px;
+        margin-top: random(50) + rem;
+        $randNum: random(10);
+        animation: rainfall infinite #{$randNum * $rain-speed-mult}s linear;
+      }
+      .rd-6{
+        height: random(20) + rem;
+        width: random(5) + px;
+        margin-top: random(50) + rem;
+        $randNum: random(10);
+        animation: rainfall infinite #{$randNum * $rain-speed-mult}s linear;
+      }
+      .rd-7{
+        height: random(20) + rem;
+        width: random(5) + px;
+        margin-top: random(50) + rem;
+        $randNum: random(10);
+        animation: rainfall infinite #{$randNum * $rain-speed-mult}s linear;
+      }
+      .rd-8{
+        height: random(20) + rem;
+        width: random(5) + px;
+        margin-top: random(50) + rem;
+        $randNum: random(10);
+        animation: rainfall infinite #{$randNum * $rain-speed-mult}s linear;
+      }
+      .rd-9{
+        height: random(20) + rem;
+        width: random(5) + px;
+        margin-top: random(50) + rem;
+        $randNum: random(10);
+        animation: rainfall infinite #{$randNum * $rain-speed-mult}s linear;
+      }
+      .rd-10{
+        height: random(20) + rem;
+        width: random(5) + px;
+        margin-top: random(50) + rem;
+        $randNum: random(10);
+        animation: rainfall infinite #{$randNum * $rain-speed-mult}s linear;
+      }
+    } // end rain group
+    
+            //raingroup10
+    &.rg-10{
+      .rd-1{
+        height: random(20) + rem;
+        width: random(5) + px;
+        $randNum: random(10);
+        animation: rainfall infinite #{$randNum * $rain-speed-mult}s linear;
+      }
+      .rd-2{
+        height: random(20) + rem;
+        width: random(5) + px;
+                $randNum: random(10);
+        animation: rainfall infinite #{$randNum * $rain-speed-mult}s linear;
+      }
+      .rd-3{
+        height: random(20) + rem;
+        width: random(5) + px;
+        margin-top: random(50) + rem;
+        $randNum: random(10);
+        animation: rainfall infinite #{$randNum * $rain-speed-mult}s linear;
+      }
+      .rd-4{
+        height: random(20) + rem;
+        width: random(5) + px;
+        margin-top: random(50) + rem;
+        $randNum: random(10);
+        animation: rainfall infinite #{$randNum * $rain-speed-mult}s linear;
+      }
+      .rd-5{
+        height: random(20) + rem;
+        width: random(5) + px;
+        margin-top: random(50) + rem;
+        $randNum: random(10);
+        animation: rainfall infinite #{$randNum * $rain-speed-mult}s linear;
+      }
+      .rd-6{
+        height: random(20) + rem;
+        width: random(5) + px;
+        margin-top: random(50) + rem;
+        $randNum: random(10);
+        animation: rainfall infinite #{$randNum * $rain-speed-mult}s linear;
+      }
+      .rd-7{
+        height: random(20) + rem;
+        width: random(5) + px;
+        margin-top: random(50) + rem;
+        $randNum: random(10);
+        animation: rainfall infinite #{$randNum * $rain-speed-mult}s linear;
+      }
+      .rd-8{
+        height: random(20) + rem;
+        width: random(5) + px;
+        margin-top: random(50) + rem;
+        $randNum: random(10);
+        animation: rainfall infinite #{$randNum * $rain-speed-mult}s linear;
+      }
+      .rd-9{
+        height: random(20) + rem;
+        width: random(5) + px;
+        margin-top: random(50) + rem;
+        $randNum: random(10);
+        animation: rainfall infinite #{$randNum * $rain-speed-mult}s linear;
+      }
+      .rd-10{
+        height: random(20) + rem;
+        width: random(5) + px;
+        margin-top: random(50) + rem;
+        $randNum: random(10);
+        animation: rainfall infinite #{$randNum * $rain-speed-mult}s linear;
+      }
+    } // end rain group
+
+  }
+}
+
+
+  @keyframes rainfall{
+    from{
+      transform: translatey(-100vh);
+    }
+    to{
+      transform: translatey(100vh);
+    }
+  }
+

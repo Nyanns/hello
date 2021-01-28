@@ -1,0 +1,18 @@
+ul {
+  font-size: 14px;
+  color: red;
+}
+
+ol {
+  font-size: 18px;
+  color: red;
+}
+
+div p {
+  color: blueviolet;
+}
+
+div ol #panda {
+  color: blue;
+}
+/*# sourceMappingURL=variable.css.map */

@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+ }
+ 
+ section{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-image: url("http://static1.1.sqspcdn.com/static/f/709071/28243747/1579169236813/weatheringwithyou-cloudynight.jpg?token=b5H%2BUx4YhDvZULynYtp0rQymOHM%3D");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[10];
+      grid-template-columns: repeat(10, 1fr);
+ }
+ 
+ section::before{
+    content: '';
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-image: url('http://pngimg.com/uploads/rain/rain_PNG13468.png');
+    animation: rain 0.19s ease-in infinite;
+ }
+ 
+ @keyframes rain{
+    0%{
+       background-position: 10 0;
+    }
+    100%{
+       background-position: 20% 80%;
+    }
+ }
